@@ -37,10 +37,10 @@ sed -i 's/192.168.1.1/192.168.6.1/g' package/base-files/files/bin/config_generat
 # git clone https://github.com/leshanydy2022/adguardhome.git feeds/packages/net/adguardhome
 
 # 安装uugamebooster
-rm -rf feeds/luci/applications/luci-app-uugamebooster
-git clone https://github.com/datouha/uugamebooster/tree/e85dd0fee76c1398aebc2a70cc35df67b019f3dd/luci-app-uugamebooster package/lean/luci-app-uugamebooster
-rm -rf feeds/packages/net/uugamebooster
-git clone https://github.com/datouha/uugamebooster/tree/e85dd0fee76c1398aebc2a70cc35df67b019f3dd/uugamebooster feeds/packages/net/uugamebooster
+# rm -rf feeds/luci/applications/luci-app-uugamebooster
+# git clone https://github.com/datouha/uugamebooster/tree/e85dd0fee76c1398aebc2a70cc35df67b019f3dd/luci-app-uugamebooster package/lean/luci-app-uugamebooster
+# rm -rf feeds/packages/net/uugamebooster
+# git clone https://github.com/datouha/uugamebooster/tree/e85dd0fee76c1398aebc2a70cc35df67b019f3dd/uugamebooster feeds/packages/net/uugamebooster
 
 
 

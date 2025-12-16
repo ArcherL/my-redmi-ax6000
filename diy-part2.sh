@@ -37,10 +37,10 @@ sed -i '/CYXluq4wUazHjmCDBCqXF/d' package/lean/default-settings/files/zzz-defaul
 # git clone https://github.com/leshanydy2022/adguardhome.git feeds/packages/net/adguardhome
 
 # 安装uugamebooster
-# rm -rf feeds/luci/applications/luci-app-uugamebooster
-# git clone https://github.com/datouha/luci-app-uugamebooster.git package/lean/luci-app-uugamebooster
-# rm -rf feeds/packages/net/uugamebooster
-# git clone https://github.com/datouha/uugamebooster.git feeds/packages/net/uugamebooster
+rm -rf feeds/luci/applications/luci-app-uugamebooster
+git clone https://github.com/datouha/uugamebooster/luci-app-uugamebooster.git package/lean/luci-app-uugamebooster
+rm -rf feeds/packages/net/uugamebooster
+git clone https://github.com/datouha/uugamebooster.git feeds/packages/net/uugamebooster
 
 
 
